@@ -1,0 +1,164 @@
+/* top */
+
+#top-img{
+    animation-name: topAnime;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes topAnime{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* question */
+.slideIn{
+    animation-name: slideInBottomAnime;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.noView{
+    opacity: 0;
+}
+
+@keyframes slideInBottomAnime{
+    from{
+        transform: translateY(120%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#problem0{
+    animation-delay: 0s;
+}
+
+#problem1{
+    animation-delay: 0.5s;
+}
+
+#problem2{
+    animation-delay: 1.0s;
+}
+
+/* logo */
+
+.logoAnime{
+    animation-name: logoAnime;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#logo-wrapper{
+    animation-delay: 0.5s;
+}
+
+@keyframes logoAnime{
+    from{
+        opacity: 0;
+    }
+    to{
+            opacity: 1;
+    }
+}
+
+
+/* service */
+.serviceAnime{
+    animation-name: slideInAnime;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.service{
+    transform-origin: center;
+}
+
+@keyframes slideInAnime{
+    from{
+        transform: translateX(150%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.serviceAnimeL{
+    animation-name: slideInAnimeL;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.service-L{
+    transform-origin: center;
+}
+
+@keyframes slideInAnimeL{
+    from{
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* page-top */
+#page-top {
+	position: fixed;
+	right: 15px;
+	bottom: 50px;
+	z-index: 2;
+    opacity: 0;
+}
+
+.topButtonUpAnime{
+    animation-name: buttonUpAnime;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes buttonUpAnime{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.topButtonDownAnime{
+    animation-name: buttonDownAnime;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes buttonDownAnime{
+    from{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+}
