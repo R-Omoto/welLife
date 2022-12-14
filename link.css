@@ -165,7 +165,7 @@ img#logo{
 
 label{
     display: block;
-    margin-left: 10%;
+    margin-top: 20px;
 }
 
 .form-send{
@@ -210,6 +210,10 @@ footer{
     cursor: pointer;
     font-size: 20px;
     margin-bottom: 10px;
+}
+
+#mes-title{
+    padding-bottom: 6px;
 }
 
 .footer-text{
