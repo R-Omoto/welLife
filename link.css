@@ -290,6 +290,10 @@ footer{
         transform: translate(-0%, -50%);
     }
 
+    .serviceSP-img{
+        opacity: 0;
+    }
+
     .service-L p{
         right: 100%;
     }
@@ -403,9 +407,17 @@ footer{
     width: 100%;
  }
 
+ .service-img{
+    display: none !important;
+}
+
 .service1{
     display: flex;
     flex-direction: column-reverse;
+}
+
+.service p,.service-L p{
+    margin-bottom: 5vh;
 }
 
  #modal{
